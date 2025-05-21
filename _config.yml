@@ -1,0 +1,24 @@
+title: JunHa Cha
+description: Robotics Engineer | Software Engineer | Open Source Contributor
+site_title: '@junha_cha Github Pages'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: ckwnsgk
+LAB_Homepage: https://sites.google.com/view/irasc/home
+email: ckwnsgk1@gachon.ac.kr
+keybase_username: JunHa Cha
+instagram_username: z000_na
+linkedin_username: ai-소프트웨어학부-소프트웨어전공-차준하-474a38333
+twitter_username: chahsks
+
+
+# absolute or relative
+profile_picture: assets/images/profile.jpeg
+profile_picture_alt: 'JunHa Cha'
+
+# Google Analytics ID
+google_analytics: 

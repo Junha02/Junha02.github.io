@@ -1,0 +1,64 @@
+/* Custom CSS for Projects Section */
+.section.projects {
+  max-width: 95%; /* 전체 화면 너비의 95%까지 확장 */
+}
+
+/* Add max-width to project filter buttons container */
+.project-filter-buttons {
+  max-width: 1000px; /* Increased from 800px to 1000px to give more space */
+  margin: 0 auto 30px; /* Center the buttons container */
+}
+
+/* Prevent text wrapping in filter buttons */
+.project-filter-button {
+  white-space: nowrap; /* Prevent text from wrapping to next line */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  min-width: fit-content; /* Allow button to grow as needed */
+  padding: 10px 20px; /* Increased padding for better appearance */
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* 반응형 그리드 */
+  grid-gap: 25px;
+  padding: 20px;
+}
+
+/* 카드 확장 */
+.wrapper {
+  max-width: 100%; /* 원래 400px에서 제한 없앰 */
+  padding: 0;
+  transition: transform 0.3s;
+}
+
+.wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.card__image {
+  min-height: 180px; /* 이미지 높이 증가 */
+  max-height: 280px;
+}
+
+@media (max-width: 768px) {
+  .section.projects {
+    max-width: 90%;
+  }
+  
+  .projects-wrapper {
+    grid-template-columns: 1fr; /* 모바일에서는 한 열로 */
+  }
+  
+  /* Adjust filter buttons on mobile */
+  .project-filter-buttons {
+    max-width: 100%;
+    flex-wrap: nowrap; /* Prevent wrapping on mobile */
+    overflow-x: auto; /* Add horizontal scrolling on mobile */
+    padding-bottom: 10px; /* Add space for scrollbar */
+  }
+  
+  .project-filter-button {
+    flex: 0 0 auto; /* Don't allow buttons to shrink */
+  }
+}

@@ -1,0 +1,821 @@
+body {
+  min-width: 360px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.head {
+
+  color: #fff;
+  min-height: 100vh;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+
+  background: transparent;
+}
+
+.head-title {
+  display: inline-block;
+  -webkit-transition: color ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
+  font-size: 56px;
+  font-size: 3.5rem;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.animated {
+  -webkit-animation: fade-in-down 0.6s;
+          animation: fade-in-down 0.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;    
+}
+
+@-webkit-keyframes fade-in-down {
+	0% {
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		-webkit-transform: translateY(-10px);
+		        transform: translateY(-10px);
+  }
+	100% {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-down {
+	0% {
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		-webkit-transform: translateY(-10px);
+		        transform: translateY(-10px);
+  }
+	100% {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.head-punchline {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.head-buttons {
+  position: absolute;
+  top: 32px;
+  top: 2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.head-icon {
+  font-size: 32px;
+  font-size: 2rem;  
+  margin: 0 5px;
+}
+
+.head-buttons a {
+  color: inherit;
+}
+
+.head-menu-wrap {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+
+  display: -ms-grid;
+
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  
+  margin: 0 auto;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.progress-bars {
+  margin-top: 30px;
+}
+
+.skills-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+  grid-gap: 20px;
+}
+
+.technical-skills {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.projects-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.full-width {
+  width: 100%;
+  max-width: 100%;
+}
+
+.section {
+  max-width: 768px;
+  margin: 60px auto;
+  padding: 20px 0;
+  min-height: 100vh;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section.skills > div {
+  width: 100%;
+}
+
+.skills-subsection {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-size: 2.5rem;
+  color: #222;
+  font-weight: bold;
+}
+
+.nav-links {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.section-wrapper:nth-child(odd) {
+  background: url(../images/background.png);
+  background-repeat: repeat;
+}
+
+.section-wrapper:nth-child(odd) .section-heading {
+  color: #fff;
+}
+
+.section-wrapper:nth-child(odd) .skills-subsection {
+  color: #000;
+}
+
+.section-wrapper:nth-child(odd) .paragraph-text {
+  color: #000;
+}
+
+/* YouTube 항목은 항상 흰색 배경과 어두운 텍스트 유지 */
+.section-wrapper:nth-child(odd) .youtube-item-horizontal {
+  background-color: #ffffff;
+}
+
+/* YouTube 항목은 항상 흰색 배경과 어두운 텍스트 유지 */
+.section-wrapper:nth-child(odd) .youtube-item-horizontal {
+  background-color: #ffffff;
+}
+
+.section-wrapper:nth-child(odd) .youtube-item-horizontal .paragraph-text {
+  color: #000000;
+}
+
+.paragraph-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  margin: 30px auto;
+  color: #404040;
+}
+
+.paragraph-text-normal {
+  font-family: 'PT Sans', sans-serif;
+  color: #404040;
+}
+
+.pt-sans-font {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.skill-grid-item {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.projects-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-auto-rows: auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer {
+  background-color: #444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 35px;
+  color: #fff;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+
+  background: url(../images/background.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.footer-text a {
+  color: inherit;
+}
+
+.technologies-grid-item {
+  width: 96.6666px;
+  height: 96.6666px;
+  background-color: #fff;
+}
+
+.project-card {
+  padding: 10px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  color: #222;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-family: Arial, sans-serif;
+  margin: 10px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-link {
+  margin: 10px 0;
+  float: right;
+  font-weight: 500;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.project-tags {
+  margin: 20px 0;
+}
+
+.project-tag-item {
+  background-color: #444;
+  border-radius: 3px;
+  padding: 5px;
+  color: #fff;
+}
+
+.post-date {
+  float: right;
+}
+
+.blog-item {
+  padding: 10px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.blog-title {
+  font-size: 17.6px;
+  font-size: 1.1rem;
+  color: inherit;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.more-blogs {
+  font-size: 16px;
+  font-size: 1rem;
+  margin: 15px 0 20px;
+}
+
+.slightly-smaller-text {
+  font-size: 14.4px;
+  font-size: 0.9rem;
+}
+
+.extra {
+  margin-bottom: 0px;
+}
+
+.experience-title {
+  font-size: 22.4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.profile-pic {
+  border-radius: 30%;
+  width: 300px;
+  height: 300px;
+  border: solid 2px rgb(95, 90, 243);
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-pic:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 0px 16px 0 rgba(255,255,255,0.5);
+}
+
+.profile-pic-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.experience-details {
+  font-size: 20.8px;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.experience-date {
+  float: right;
+  font-size: 17.6px;
+  font-size: 1.1rem;
+}
+
+#nav {
+  background: url(../images/background.png);
+  background-repeat: repeat;
+}
+
+a {
+  color: #222;
+}
+
+.extra-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.head-inner-wrap {
+  
+}
+
+.bottom-link {
+  margin: 0 5px;
+}
+
+.project-technologies {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(120px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  margin: 20px 0;
+  grid-gap: 5px;
+  grid-row-gap: 10px;
+  width: 100%;
+}
+
+.project-technology {
+  border: 1px solid #222;
+  border-radius: 2px;
+  margin: 0 5px;
+  padding: 3px 5px;
+}
+
+.project-technology:first-child {
+  margin-left: 0px;
+}
+
+.project-technology:last-child {
+  margin-right: 0px;
+}
+
+/* Here follow all the media queries */
+@media screen and (max-width: 850px) {
+
+  .section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .project-technologies {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .head-menu-wrap {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 80%;
+  }
+
+  #nav {
+    background-attachment: unset;
+  }
+
+  .head-title {
+    display: block;
+    text-align: center;
+    font-size: 2.75rem;
+  }
+  
+  .head-punchline {
+    text-align: center;
+  }
+
+  .skills-grid {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+  }
+
+  .set-size {
+    font-size: 8em;
+  }
+  .pie-wrapper .label {
+    font-size: 0.9rem;
+    top: 3rem;
+  }
+  
+  .projects-grid {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+
+  .projects-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    grid-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-height: 450px) and (max-width: 600px) {
+  .head {
+    min-height: 525px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .head-menu-wrap {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
+
+@media screen and (max-height: 525px) {
+
+  .head {
+    min-height: 500px;
+  }
+
+  .head-menu-wrap {
+    bottom: 15px;
+  }
+}
+
+/* YouTube 동영상 스타일 - 가로 배치 세로 스택 */
+.youtube-seminars-wrapper-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px 0;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.youtube-item-horizontal {
+  background-color: #ffffff !important; /* 흰색 배경으로 변경 (모든 섹션에서 강제 적용) */
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #000000 !important; /* 검은색 텍스트로 변경 (모든 섹션에서 강제 적용) */
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* 약간의 그림자 추가 */
+}
+
+/* YouTube 메타 정보 스타일 */
+.youtube-meta {
+  margin-top: 5px;
+}
+
+.youtube-date {
+  color: #ffffff;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+
+
+.youtube-item-horizontal:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-left: 3px solid #FF0000; /* YouTube 색상의 테두리 추가 */
+}
+
+.youtube-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 15px; /* 간격 줄임 */
+  align-items: flex-start; /* 상단 정렬로 변경하여 위로 붙이기 */
+}
+
+.youtube-thumbnail-horizontal {
+  flex: 0 0 250px;
+}
+
+.youtube-info {
+  flex: 1;
+  padding-top: 5px; /* 위쪽 간격 추가 */
+  color: #000000 !important; /* 텍스트 색상 검정으로 명시 (모든 섹션에서 강제 적용) */
+}
+
+.youtube-title {
+  font-size: 1.5rem;
+  margin: 0 0 15px 0;
+  color: #000000 !important; /* 제목도 항상 검정색으로 */
+}
+
+.youtube-thumbnail-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.youtube-thumbnail {
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.youtube-thumbnail img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.play-button-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05); /* 배경을 거의 투명하게 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9; /* 재생 버튼은 잘 보이도록 설정 */
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.play-button-overlay span {
+  color: white;
+  font-size: 3rem;
+  background-color: rgba(255, 0, 0, 0.85); /* 배경색을 더 선명하게 */
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* 그림자 추가로 더 눈에 띄게 */
+}
+
+.youtube-thumbnail:hover img {
+  transform: scale(1.05);
+}
+
+.youtube-thumbnail:hover .play-button-overlay {
+  background-color: rgba(0, 0, 0, 0.15); /* 호버 시에도 배경은 거의 투명하게 */
+  opacity: 1;
+}
+
+/* YouTube 섹션에 약간의 시각적 표시 추가 */
+#blog-posts {
+  position: relative;
+}
+
+#blog-posts:after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.5), transparent);
+}
+
+/* 모바일 화면에서의 반응형 조정 */
+@media screen and (max-width: 768px) {
+  .youtube-content-wrapper {
+    flex-direction: column;
+  }
+  
+  .youtube-thumbnail-horizontal {
+    flex: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .youtube-info {
+    margin-top: 10px;
+  }
+  
+  /* 모바일에서 비전 문구 라인 스타일 조정 */
+  .vision-line {
+    width: 20%;
+  }
+  
+  .vision-quote {
+    width: 60%;
+  }
+}
+
+/* 비전 문구 스타일 */
+.vision-quote-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.vision-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: navy;
+}
+
+.vision-quote {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: navy;
+  white-space: nowrap;
+}
+
+/* 프로젝트 섹션 스타일 개선 */
+.project-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project-filter-button {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgba(52, 152, 219, 0.1);
+  border: 1px solid rgba(52, 152, 219, 0.3);
+  white-space: nowrap;
+  min-width: fit-content;
+  font-size: 1.05rem;
+}
+
+.project-filter-button:hover {
+  background-color: rgba(52, 152, 219, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-filter-button i {
+  color: #3498db;
+}
+
+/* 프로젝트 카드 개선 */
+.project-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
