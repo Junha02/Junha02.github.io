@@ -155,9 +155,9 @@ let render_projects = (slug) => {
             categories: ['robotics']
         },
         {
-            image: 'assets/images/Remotix.png',
-            link: '',
-            title: 'Turtlebot Teleoperation System[개발중]',
+            image: 'assets/images/Teleoperation.gif',
+            link: 'https://github.com/Remotix8/Remotix8',
+            title: 'Turtlebot Teleoperation System',
             technologies: ['robotics','react','ROS'],
             description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
             categories: ['robotics']
