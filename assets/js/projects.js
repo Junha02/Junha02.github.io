@@ -107,6 +107,22 @@ let render_projects = (slug) => {
             categories: ['robotics','featured']
         },
         {
+            image: 'assets/images/smartfactory.gif',
+            link: 'https://www.notion.so/LSSF-Low-Scale-Smart-Factory-1f6f891b707680bfbe56edfe37206dee?pvs=4',
+            title: 'Low scale Smart Factory',
+            technologies: ['robotics','ROS'],
+            description: "Aiming to build a small-scale smart factory, I developed a system where, upon a customer’s web order, a robot arm detects the product via an ARUCO marker and performs pick-and-place operations.",
+            categories: ['robotics','featured']
+        },
+        {
+            image: 'assets/images/Teleoperation.gif',
+            link: 'https://github.com/Remotix8/Remotix8',
+            title: 'Turtlebot Teleoperation System',
+            technologies: ['robotics','react','ROS'],
+            description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
+            categories: ['robotics','featured']
+        },
+        {
             image: 'assets/images/widow.gif',
             link: 'https://www.notion.so/DEMO_Custom_WidowX-1f5f891b707680b58910c182580e0d45',
             title: 'Customized widowX 250s',
@@ -120,14 +136,6 @@ let render_projects = (slug) => {
             title: 'Customized OMX-6DOF',
             technologies: ['robotics'],
             description: "Assembled the OMX and playing with the MoveIt controller.",
-            categories: ['robotics','featured']
-        },
-        {
-            image: 'assets/images/smartfactory.gif',
-            link: 'https://www.notion.so/LSSF-Low-Scale-Smart-Factory-1f6f891b707680bfbe56edfe37206dee?pvs=4',
-            title: 'Low scale Smart Factory',
-            technologies: ['robotics','ROS'],
-            description: "Aiming to build a small-scale smart factory, I developed a system where, upon a customer’s web order, a robot arm detects the product via an ARUCO marker and performs pick-and-place operations.",
             categories: ['robotics','featured']
         },
         {
@@ -152,14 +160,6 @@ let render_projects = (slug) => {
             title: '국립재활원 과제',
             technologies: ['ROS'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
-            categories: ['robotics']
-        },
-        {
-            image: 'assets/images/Teleoperation.gif',
-            link: 'https://github.com/Remotix8/Remotix8',
-            title: 'Turtlebot Teleoperation System',
-            technologies: ['robotics','react','ROS'],
-            description: "I developed 'Remotix,' a teleoperation system that enables remote control for future autonomous vehicles using a TurtleBot.",
             categories: ['robotics']
         },
         {
