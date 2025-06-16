@@ -123,6 +123,14 @@ let render_projects = (slug) => {
             categories: ['robotics','featured']
         },
         {
+            image: 'assets/images/imitation.gif',
+            link: '',
+            title: 'Imitation Learning',
+            technologies: ['robotics','Lerobot'],
+            description: "Lerobot Example",
+            categories: ['robotics','featured']
+        },
+        {
             image: 'assets/images/widow.gif',
             link: 'https://www.notion.so/DEMO_Custom_WidowX-1f5f891b707680b58910c182580e0d45',
             title: 'Customized widowX 250s',
