@@ -88,6 +88,82 @@ img {
   font-size: 1.25rem;
 }
 
+/* GitHub branch 스타일 회사 이력 태그 */
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.experience-tag {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.experience-tag:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.experience-tag::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+}
+
+.experience-company {
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.experience-role {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.experience-period {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* 반응형 디자인 */
+@media screen and (max-width: 600px) {
+  .experience-tags {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-tag {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+}
+
 .head-buttons {
   position: absolute;
   top: 32px;
