@@ -150,6 +150,113 @@ img {
   font-weight: 500;
 }
 
+/* About 섹션에서의 경력사항 태그 스타일 */
+.section.about .experience-tags {
+  justify-content: flex-start;
+}
+
+.section.about .experience-tag {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.section.about .experience-tag:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+}
+
+.section.about .experience-tag::before {
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.4), transparent);
+}
+
+.section.about .experience-company {
+  color: #1e40af;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.section.about .experience-role {
+  color: #374151;
+  font-size: 12px;
+}
+
+.section.about .experience-period {
+  color: #6b7280;
+  background: rgba(59, 130, 246, 0.1);
+  font-size: 11px;
+}
+
+/* 경력사항 타임라인 스타일 */
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(249, 250, 251, 0.8);
+  border-radius: 15px;
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+  background: rgba(249, 250, 251, 1);
+  border-color: rgba(59, 130, 246, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.1);
+}
+
+.experience-image {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid rgba(59, 130, 246, 0.2);
+}
+
+.experience-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-item .experience-tag {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  backdrop-filter: blur(10px);
+  margin-bottom: 0;
+}
+
+.experience-company-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.experience-company-link:hover {
+  text-decoration: underline;
+}
+
+.experience-description {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 8px;
+  font-style: italic;
+}
+
 /* 반응형 디자인 */
 @media screen and (max-width: 600px) {
   .experience-tags {
@@ -158,6 +265,31 @@ img {
   }
   
   .experience-tag {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+  
+  .section.about .experience-tags {
+    align-items: center;
+  }
+  
+  .experience-timeline {
+    gap: 15px;
+  }
+  
+  .experience-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .experience-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .experience-item .experience-tag {
     width: 100%;
     max-width: 280px;
     justify-content: center;
