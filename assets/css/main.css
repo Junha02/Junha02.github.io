@@ -257,6 +257,66 @@ img {
   font-style: italic;
 }
 
+/* 현재 근무 중인 항목 스타일 */
+.current-job {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.05)) !important;
+  border: 2px solid rgba(34, 197, 94, 0.3) !important;
+  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.2) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.current-job::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+}
+
+.current-job:hover {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(34, 197, 94, 0.1)) !important;
+  border-color: rgba(34, 197, 94, 0.5) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(34, 197, 94, 0.3) !important;
+}
+
+.current-period {
+  background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+  color: white !important;
+  font-weight: bold !important;
+  padding: 4px 12px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3) !important;
+}
+
+.current-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 8px;
+  box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);
+  }
+  50% {
+    box-shadow: 0 2px 12px rgba(34, 197, 94, 0.5);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(34, 197, 94, 0.3);
+  }
+}
+
 /* 반응형 디자인 */
 @media screen and (max-width: 600px) {
   .experience-tags {
