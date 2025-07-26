@@ -453,34 +453,35 @@ img {
   font-weight: bold;
 }
 
-.section-wrapper:nth-child(odd) {
+.section-wrapper:nth-child(1),
+.section-wrapper:nth-child(4) {
   background: url(../images/background.png);
   background-repeat: repeat;
 }
 
-.section-wrapper:nth-child(odd) .section-heading {
+.section-wrapper:nth-child(1) .section-heading,
+.section-wrapper:nth-child(4) .section-heading {
   color: #fff;
 }
 
-.section-wrapper:nth-child(odd) .skills-subsection {
+.section-wrapper:nth-child(1) .skills-subsection,
+.section-wrapper:nth-child(4) .skills-subsection {
   color: #000;
 }
 
-.section-wrapper:nth-child(odd) .paragraph-text {
+.section-wrapper:nth-child(1) .paragraph-text,
+.section-wrapper:nth-child(4) .paragraph-text {
   color: #000;
 }
 
 /* YouTube 항목은 항상 흰색 배경과 어두운 텍스트 유지 */
-.section-wrapper:nth-child(odd) .youtube-item-horizontal {
+.section-wrapper:nth-child(1) .youtube-item-horizontal,
+.section-wrapper:nth-child(4) .youtube-item-horizontal {
   background-color: #ffffff;
 }
 
-/* YouTube 항목은 항상 흰색 배경과 어두운 텍스트 유지 */
-.section-wrapper:nth-child(odd) .youtube-item-horizontal {
-  background-color: #ffffff;
-}
-
-.section-wrapper:nth-child(odd) .youtube-item-horizontal .paragraph-text {
+.section-wrapper:nth-child(1) .youtube-item-horizontal .paragraph-text,
+.section-wrapper:nth-child(4) .youtube-item-horizontal .paragraph-text {
   color: #000000;
 }
 
