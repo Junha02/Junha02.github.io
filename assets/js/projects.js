@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://slam.gachon.ac.kr/',
             title: 'Open Source Supporters',
             technologies: ['open-source'],
-            description: "Gachon University 소프트웨어 중심 대학 Open Source Supporters로써, 학교 내 오픈소스 프로젝트 홍보 및 관리를 지원하고 있습니다.",
+            description: "As an Open Source Supporter at Gachon University's Software-Centered University, I support the promotion and management of open source projects within the school.",
             categories: ['activity']
         },
         {
@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             link: 'https://www.notion.so/KROS-1f5f891b707680d8943ef24daa361f52?pvs=4',
             title: 'KROS 한국로봇학회',
             technologies: ['forum','networking'],
-            description: "첫 학회로 참여하여, 로봇 분야 최신 연구 동향을 파악하고 많은 기업관계자 분들을 뵙고 좋은 경험을 할 수 있었습니다.",
+            description: "Participating in my first conference, I was able to understand the latest research trends in robotics and meet many industry professionals, gaining valuable experience.",
             categories: ['activity']
         },
         {
@@ -31,7 +31,7 @@ let render_projects = (slug) => {
             link: '',
             title: 'ROBOTIS OpenLAB',
             technologies: ['ROBOTIS','forum','networking'],
-            description: "ROBOTIS OpenLAB 행사에 참여하여 네트워킹을 진행하고 사옥을 탐방해보았습니다.",
+            description: "I participated in the ROBOTIS OpenLAB event, conducted networking, and toured their headquarters.",
             categories: ['activity']
         },
         {
@@ -39,7 +39,7 @@ let render_projects = (slug) => {
             link: '',
             title: 'Coex Smart-Tech 전시회',
             technologies: ['forum','networking'],
-            description: "Coex 스마트 테크 전시회에 방문하여, 제가 연구중이던 Fully Autonomous Palletizing 에 대해 현재 기술 수준과 한계점을 파악할 수 있었습니다.",
+            description: "Visiting the Coex Smart-Tech exhibition, I was able to understand the current technology level and limitations of Fully Autonomous Palletizing that I was researching.",
             categories: ['activity']
         },
         {
@@ -47,7 +47,7 @@ let render_projects = (slug) => {
             link: '',
             title: '남원 드론축제',
             technologies: ['forum','networking'],
-            description: "남원 드론축제에 방문하여, 대한민국 드론 액티비티를 즐기고 왔습니다.",
+            description: "I visited the Namwon Drone Festival and enjoyed South Korea's drone activities.",
             categories: ['activity']
         },
         {
@@ -55,7 +55,7 @@ let render_projects = (slug) => {
             link: '',
             title: 'AIKR ',
             technologies: ['AIKR','forum','networking'],
-            description: "로봇계 대가이신 연사님들의 강연을 듣고, 인사이트를 얻는 좋은 기회였습니다.[연사님들의 연구자산이므로, 비공개 처리 하였습니다.]",
+            description: "It was a great opportunity to listen to lectures by robotics experts and gain insights. [Made private as it contains the speakers' research assets.]",
             categories: ['activity']
         },
         {
@@ -87,7 +87,7 @@ let render_projects = (slug) => {
             link: '',
             title: '자랑스러운 가천인상',
             technologies: ['Award'],
-            description: "학교를 빛낸 학생으로 선정되어, 자랑스러운 가천인상을 수상하였습니다.",
+            description: "I was selected as a student who brought honor to the school and received the Proud Gachon Person Award.",
             categories: ['challenge']
         },
         {
