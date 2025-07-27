@@ -228,8 +228,8 @@ img {
 }
 
 .experience-image img {
-  width: 230px;
-  height: 100px;
+  width: 220px;
+  height: 80px;
   object-fit: cover;
   object-position: center;
 }
