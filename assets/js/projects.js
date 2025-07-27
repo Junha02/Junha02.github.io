@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/kros.png',
             link: 'https://www.notion.so/KROS-1f5f891b707680d8943ef24daa361f52?pvs=4',
-            title: 'KROS'
+            title: 'KROS',
             technologies: ['forum','networking'],
             description: "Participating in my first conference, I was able to understand the latest research trends in robotics and meet many industry professionals, gaining valuable experience.",
             categories: ['activity']
