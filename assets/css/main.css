@@ -385,6 +385,7 @@ img {
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
   grid-gap: 20px;
+  color: #ffffff;
 }
 
 .technical-skills {
