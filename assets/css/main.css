@@ -217,7 +217,7 @@ img {
 
 .experience-image {
   flex-shrink: 0;
-  width: 180px;
+  width: 160px;
   height: 70px;
   border-radius: 12px;
   overflow: hidden;
