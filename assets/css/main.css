@@ -1076,6 +1076,7 @@ a {
   border-radius: 12px;
   font-weight: bold;
   font-style: italic;
+  font-size: 0.9em;
   box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
 }
 
