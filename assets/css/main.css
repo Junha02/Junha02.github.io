@@ -1070,31 +1070,31 @@ a {
 
 /* 인용구 하이라이트 스타일 */
 .quote-highlight {
-  background: linear-gradient(135deg, #10b981, #059669);
+  background: linear-gradient(135deg, #8b5cf6, #a21caf);
   color: white;
-  padding: 4px 12px;
-  border-radius: 20px;
+  padding: 2px 8px;
+  border-radius: 12px;
   font-weight: bold;
   font-style: italic;
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
 }
 
 /* 인용구 콜아웃 스타일 */
 .quote-callout {
-  margin: 30px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
 .quote-callout blockquote {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.05));
-  border-left: 4px solid #10b981;
-  padding: 20px 30px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(162, 28, 175, 0.05));
+  border-left: 3px solid #8b5cf6;
+  padding: 15px 20px;
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #065f46;
-  border-radius: 0 12px 12px 0;
-  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.2);
+  color: #581c87;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 8px rgba(139, 92, 246, 0.15);
   position: relative;
   overflow: hidden;
 }
@@ -1102,20 +1102,20 @@ a {
 .quote-callout blockquote::before {
   content: '"';
   position: absolute;
-  top: -10px;
-  left: 20px;
-  font-size: 4rem;
-  color: rgba(16, 185, 129, 0.3);
+  top: -5px;
+  left: 15px;
+  font-size: 2.5rem;
+  color: rgba(139, 92, 246, 0.3);
   font-family: serif;
 }
 
 .quote-callout blockquote::after {
   content: '"';
   position: absolute;
-  bottom: -30px;
-  right: 20px;
-  font-size: 4rem;
-  color: rgba(16, 185, 129, 0.3);
+  bottom: -20px;
+  right: 15px;
+  font-size: 2.5rem;
+  color: rgba(139, 92, 246, 0.3);
   font-family: serif;
 }
 
