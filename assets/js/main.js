@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     general_utils();
-    // blog_posts(); // 주석 처리: 정적 HTML을 사용하기로 함
+    // blog_posts(); // Comment: Using static HTML instead
 })
 
 
@@ -32,7 +32,7 @@ function blog_posts() {
         },
         {
             url: '#',
-            title: '로보틱스와 인공지능의 융합 방향성',
+            title: 'Convergence Direction of Robotics and Artificial Intelligence',
         },
     ];
 

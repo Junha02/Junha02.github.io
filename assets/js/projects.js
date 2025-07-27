@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/kros.png',
             link: 'https://www.notion.so/KROS-1f5f891b707680d8943ef24daa361f52?pvs=4',
-            title: 'KROS 한국로봇학회',
+            title: 'KROS'
             technologies: ['forum','networking'],
             description: "Participating in my first conference, I was able to understand the latest research trends in robotics and meet many industry professionals, gaining valuable experience.",
             categories: ['activity']
@@ -37,7 +37,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/hy.gif',
             link: '',
-            title: 'Coex Smart-Tech 전시회',
+            title: 'Coex Smart-Tech Exhibition',
             technologies: ['forum','networking'],
             description: "Visiting the Coex Smart-Tech exhibition, I was able to understand the current technology level and limitations of Fully Autonomous Palletizing that I was researching.",
             categories: ['activity']
@@ -45,7 +45,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/drone.gif',
             link: '',
-            title: '남원 드론축제',
+            title: 'Namwon Drone Festival',
             technologies: ['forum','networking'],
             description: "I visited the Namwon Drone Festival and enjoyed South Korea's drone activities.",
             categories: ['activity']
@@ -61,7 +61,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/kiroplatform.jpeg',
             link: '',
-            title: '2024-국방로봇경진대회[로봇기업상]',
+            title: '2024-Defense Robotics Competition [Robotics Company Award]',
             technologies: ['Award','ROS','Robotics','moveit','YOLO'],
             description: "Participated in the multifunction autonomous driving vehicle competition organized by the Army.",
             categories: ['challenge','featured']
@@ -69,7 +69,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/drbot.png',
             link: 'https://www.notion.so/1f6f891b707680bc8453c16857aef4d2?pvs=4',
-            title: '드론봇 대회 챌린지[국방부 장관상 1위]',
+            title: 'Dronebot Competition Challenge [1st Place - Minister of Defense Award]',
             technologies: ['Award','Robotics','Deep Learning'],
             description: "We won first place in the drone-based runway foreign object detection competition organized by the Republic of Korea Air Force.",
             categories: ['Award','challenge','featured']
@@ -77,7 +77,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/Univer.png',
             link: '',
-            title: '창업해 春 [최우수상 1위]',
+            title: 'Startup Spring(春) [1st Place - Excellence Award]',
             technologies: ['Award','Flutter'],
             description: "We developed 'Univerlet,' a campus communication app, and won first place in the student startup competition hosted by Gachon University.",
             categories: ['challenge']
@@ -85,7 +85,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/gac.png',
             link: '',
-            title: '자랑스러운 가천인상',
+            title: 'Proud Gachon Person Award',
             technologies: ['Award'],
             description: "I was selected as a student who brought honor to the school and received the Proud Gachon Person Award.",
             categories: ['challenge']
@@ -93,7 +93,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/bbvla.png',
             link: 'https://www.notion.so/Demo_BB-vla-1f5f891b7076809b9f99c5a156042136?pvs=4',
-            title: 'BB-VLA, 대한전자공학회, IEIE, (2025).',
+            title: 'BB-VLA, Korean Institute of Electronics Engineers, IEIE, (2025).',
             technologies: ['VLA','ROS','LLM'],
             description: "BB-VLA: A Brain-Body Framework Mimicking Human Thought for Intelligent Manipulator Palletizing",
             categories: ['paper','featured']
@@ -165,7 +165,7 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/imu.gif',
             link: 'https://www.notion.so/Movella-Dot-IMU-Sensor-Ros-Driver-b98ea440020b414891fd71aeaca2237b',
-            title: '국립재활원 과제',
+            title: 'National Rehabilitation Center Project',
             technologies: ['ROS'],
             description: "Developed a ROS driver for the Movella-Dot IMU sensor. and created a ROS2 System to collect the data.",
             categories: ['robotics']
