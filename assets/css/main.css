@@ -453,7 +453,8 @@ img {
 }
 
 .section-wrapper:nth-child(1),
-.section-wrapper:nth-child(4) {
+.section-wrapper:nth-child(4),
+.section-wrapper:nth-child(5) {
   background: url(../images/background.png);
   background-repeat: repeat;
 }
