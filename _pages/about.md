@@ -22,7 +22,6 @@ profile:
 pr_video: Junha_pr.mp4
 
 selected_papers: true
-featured_projects: true
 social: true
 
 announcements:
