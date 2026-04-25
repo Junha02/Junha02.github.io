@@ -44,9 +44,10 @@
         - "Contributed to the design and coding of AI Worker and OMX modules as a member of the AI Software Team."
         - Main contributor to OMX product release.
     - title: Research Assistant (RA)
-      institution: "<a href='https://sites.google.com/view/irasc/home'>iRASC Lab</a> (Intelligent Robotics and Autonomous System Control), Gachon University"
+      institution: "<a href='https://sites.google.com/view/irasc/home?authuser=0'>iRASC Lab</a> (Intelligent Robotics and Autonomous System Control), Gachon University"
       year: 2023.12 - 2025.06
       description:
+        - "Supervised by Prof. <a href='https://sites.google.com/view/irasc/home?authuser=0'>Andrew Jaeyong Choi</a>"
         - "Research focused on Intelligent Manipulation for achieving Human-Level Intelligence in robotics."
         - "Developed ROS-based systems for autonomous robots."
 

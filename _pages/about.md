@@ -40,6 +40,6 @@ latest_posts:
 
 Hi, I'm **Junha Cha**, a robotics researcher with a strong interest in **Dexterous Manipulation** and **Embodied AI**. I'm focused on building _"generalist robots that can work with people"_ in everyday environments.
 
-I'm currently an **Undergraduate Research Intern** at the [Robot Intelligence Lab (RILAB)](https://sites.google.com/view/sungjoon-choi/home) at **Korea University**, supervised by Prof. [Sungjoon Choi](https://sites.google.com/view/sungjoon-choi/home). Previously, I worked as an **AI Software Team Intern at [ROBOTIS](https://www.robotis.com/)** and served as a Research Assistant at the [iRASC Lab](https://sites.google.com/view/irasc/home) (Intelligent Robotics and Autonomous System Control) at Gachon University.
+I'm currently an **Undergraduate Research Intern** at the [Robot Intelligence Lab (RILAB)](https://sites.google.com/view/sungjoon-choi/home) at **Korea University**, supervised by Prof. [Sungjoon Choi](https://sites.google.com/view/sungjoon-choi/home). Previously, I worked as an **AI Software Team Intern at [ROBOTIS](https://www.robotis.com/)** and served as a Research Assistant at the [iRASC Lab](https://sites.google.com/view/irasc/home) (Intelligent Robotics and Autonomous System Control) at Gachon University, supervised by Prof. [Andrew Jaeyong Choi](https://sites.google.com/view/irasc/home?authuser=0).
 
 My goal is to gradually reduce the dangerous and physically demanding tasks that people perform, while maximizing productivity — ultimately achieving a world where robots free humans from labor.
