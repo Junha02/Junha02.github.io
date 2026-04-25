@@ -1,0 +1,110 @@
+{
+  "basics": {
+    "name": "Junha Cha",
+    "label": "Robotics Engineer & AI Researcher",
+    "image": "",
+    "email": "chajunha2023@naver.com",
+    "url": "https://junha02.github.io",
+    "summary": "Robotics researcher focused on Dexterous Manipulation and Embodied AI, building generalist robots that can work with people.",
+    "location": {
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "Seoul"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Junha02",
+        "url": "https://github.com/Junha02"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/junha-cha"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Robot Intelligence Lab (RILAB), Korea University",
+      "position": "Undergraduate Research Intern",
+      "url": "https://sites.google.com/view/sungjoon-choi/home",
+      "startDate": "2026-01-01",
+      "summary": "Research on Dexterous Manipulation and Embodied AI, supervised by Prof. Sungjoon Choi."
+    },
+    {
+      "name": "ROBOTIS",
+      "position": "AI Software Team Intern",
+      "url": "https://www.robotis.com/",
+      "startDate": "2025-06-01",
+      "endDate": "2025-12-31",
+      "summary": "Working on AI platform development for robotics applications."
+    },
+    {
+      "name": "iRASC Lab, Gachon University",
+      "position": "Research Assistant",
+      "url": "https://sites.google.com/view/irasc/home",
+      "startDate": "2023-12-01",
+      "endDate": "2025-06-01",
+      "summary": "Conducted research on VLA, Imitation Learning, and robotic manipulation. Developed ROS-based systems for autonomous robots."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Gachon University",
+      "url": "https://www.gachon.ac.kr/",
+      "area": "AI and Software",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-03-01",
+      "endDate": "2027-02-28"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Extreme Robotics Challenge — 2nd Place",
+      "date": "2025-10-01",
+      "awarder": "KIRO",
+      "summary": "Button pressing, rescue supply collection, and door opening in simulated disaster environment. Role: System Integration & Manipulation."
+    },
+    {
+      "title": "Defense Robotics Competition — Honorary Mention",
+      "date": "2025-07-01",
+      "awarder": "KIRO",
+      "summary": "Leader-Follower system construction and manipulation for supply box collection with robotic arm."
+    },
+    {
+      "title": "DroneBot Challenge — 1st Place",
+      "date": "2024-10-01",
+      "awarder": "Ministry of National Defense (ROK)",
+      "summary": "AI-Vision-based runway FOD detection platform. Role: PyMavlink WebSocket Communication & Data Curation."
+    },
+    {
+      "title": "Defense Robotics Competition — Robotics Industry Award",
+      "date": "2024-08-01",
+      "awarder": "KIRO",
+      "summary": "Multi-functional autonomous driving system with robotic arm using Jetson Orin and YOLOv8."
+    },
+    {
+      "title": "창업해 春 (Startup Spring) — 1st Place",
+      "date": "2021-11-01",
+      "awarder": "Gachon University",
+      "summary": "Developed 'Univerlet' university student community app. Role: Market Research, MD, and Flutter Frontend."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages & Frameworks",
+      "keywords": ["C", "Python", "ROS/ROS 2", "Docker", "Git"]
+    },
+    {
+      "name": "Research Interests",
+      "keywords": ["Robot Manipulation", "Human-Robot Interaction", "Embodied AI"]
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Robotics",
+      "keywords": ["Embodied AI", "Physical Human-Robot Interaction", "Autonomous Systems"]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Junha Cha
+    - name: Date of Birth
+      value: December 11, 2002
+    - name: Email
+      value: chajunha2023@naver.com
+    - name: Phone
+      value: "+82-10-3199-8292"
+
+- title: Education
+  type: time_table
+  contents:
+    - title: BS in AI and Software
+      institution: Gachon University, Seongnam, Korea
+      year: 2021 - 2027 (Expected)
+      description:
+        - Department of AI and Software
+        - "GPA: 4.35 / 4.5 | Major: 4.37 / 4.5"
+        - "GPA: 4.35 / 4.5 | Major: 4.37 / 4.5"
+
+- title: Military Service
+  type: time_table
+  contents:
+    - title: Sergeant (병장), Republic of Korea Army (ROKA)
+      institution: Honorable Discharge
+      year: 2022.01 - 2023.07
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Undergraduate Research Intern
+      institution: "<a href='https://sites.google.com/view/sungjoon-choi/home'>Robot Intelligence Lab (RILAB)</a>, Korea University"
+      year: 2026.01 - Present
+      description:
+        - "Supervised by Prof. <a href='https://sites.google.com/view/sungjoon-choi/home'>Sungjoon Choi</a>"
+        - "Research focused on Intelligent Manipulation for achieving Human-Level Intelligence in robotics."
+    - title: AI Software Team Intern
+      institution: ROBOTIS
+      year: 2025.06 - 2025.12
+      description:
+        - "Contributed to the design and coding of AI Worker and OMX modules as a member of the AI Software Team."
+        - Main contributor to OMX product release.
+    - title: Research Assistant (RA)
+      institution: "<a href='https://sites.google.com/view/irasc/home'>iRASC Lab</a> (Intelligent Robotics and Autonomous System Control), Gachon University"
+      year: 2023.12 - 2025.06
+      description:
+        - "Research focused on Intelligent Manipulation for achieving Human-Level Intelligence in robotics."
+        - "Developed ROS-based systems for autonomous robots."
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "Extreme Robotics Challenge — 2nd Place (KIRO): Button pressing, rescue supply collection, and door opening missions in a simulated disaster environment. Role: System Integration & Manipulation."
+        - "Defense Robotics Competition — Honorary Mention (KIRO): Leader-Follower system construction and manipulation for supply box collection with robotic arm."
+        - "BB-VLA paper presented at IEIE (Korean Institute of Electronics Engineers)"
+    - year: 2024
+      items:
+        - "DroneBot Challenge — 1st Place, Ministry of National Defense (국방부장관상): AI-Vision-based runway FOD detection platform for emergency combat aircraft deployment. Role: PyMavlink WebSocket Communication & Data Curation."
+        - "Defense Robotics Competition — Robotics Industry Award (KIRO): Multi-functional autonomous driving system with robotic arm using Jetson Orin and YOLOv8."
+    - year: 2021
+      items:
+        - "창업해 春 (Startup Spring) — 1st Place (Gachon University): Developed 'Univerlet' university student community app. Role: Market Research, MD, and Flutter Frontend."
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages & Frameworks
+      items:
+        - "C, Python"
+        - "ROS / ROS 2"
+        - "Docker, Git"
+    - title: Research Interests
+      items:
+        - "Robot Manipulation, Human-Robot Interaction"
+        - "Embodied AI"
+
+- title: Other Interests
+  type: list
+  contents:
+    - "<u>Vision:</u> Freedom From Work — Building generalist robots that can work with people."
+    - "<u>Open Source:</u> Active contributor and supporter of open source robotics projects."

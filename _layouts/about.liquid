@@ -1,0 +1,157 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      {% if page.pr_video %}
+        <!-- Hero: PR Video + Profile side by side -->
+        <div style="display: flex; gap: 24px; align-items: stretch; margin-bottom: 24px; flex-wrap: wrap;">
+          <div style="flex: 1; min-width: 280px; display: flex; align-items: center;">
+            <video id="pr-video" autoplay loop muted playsinline preload="auto" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+              <source src="{{ page.pr_video | prepend: '/assets/video/' | relative_url }}" type="video/mp4">
+            </video>
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                var v = document.getElementById('pr-video');
+                if (v) {
+                  v.muted = true;
+                  v.play().catch(function() {
+                    document.addEventListener('click', function handler() {
+                      v.muted = true;
+                      v.play();
+                      document.removeEventListener('click', handler);
+                    });
+                  });
+                }
+              });
+            </script>
+          </div>
+          <div style="flex: 0 0 auto; max-width: 280px; text-align: center;">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}280px{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            {% endif %}
+            {% if page.profile.more_info %}
+              <div class="more-info">{{ page.profile.more_info }}</div>
+            {% endif %}
+          </div>
+        </div>
+        <div>{{ content }}</div>
+      {% else %}
+        <!-- Default: Profile float layout -->
+        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1
+        rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+        30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
+          {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+        <div class="clearfix">{{ content }}</div>
+      {% endif %}
+    {% endif %}
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <span style="color: inherit">publications</span>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Featured projects -->
+    {% if page.featured_projects %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">featured projects</a>
+      </h2>
+      {% assign featured = site.projects | where: "category", "featured" | sort: "importance" %}
+      <div class="row row-cols-1 row-cols-md-3" style="margin-bottom: 1rem;">
+        {% for project in featured %}
+          <div class="col mb-4">
+            <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}" style="text-decoration: none; color: inherit;">
+              <div class="card h-100 hoverable">
+                {% if project.img %}
+                  {%
+                    include figure.liquid
+                    loading="eager"
+                    path=project.img
+                    sizes="250px"
+                    alt="project thumbnail"
+                    class="card-img-top"
+                  %}
+                {% endif %}
+                <div class="card-body">
+                  <h2 class="card-title">{{ project.title }}</h2>
+                  <p class="card-text">{{ project.description }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>
