@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Junha Cha",
-    "label": "Robotics Engineer & AI Researcher",
+    "label": "Robot Intelligence Lab @ Korea University",
     "image": "",
-    "email": "chajunha2023@naver.com",
+    "email": "ckwnsgk1@gachon.ac.kr",
     "url": "https://junha02.github.io",
-    "summary": "Robotics researcher focused on Dexterous Manipulation and Embodied AI, building generalist robots that can work with people.",
+    "summary": "Undergraduate robotics researcher focused on intelligent manipulation, tele-operation, and autonomy for robots that can work with people.",
     "location": {
       "city": "Seoul",
       "countryCode": "KR",
@@ -29,7 +29,7 @@
       "position": "Undergraduate Research Intern",
       "url": "https://sites.google.com/view/sungjoon-choi/home",
       "startDate": "2026-01-01",
-      "summary": "Research on Dexterous Manipulation and Embodied AI, supervised by Prof. Sungjoon Choi."
+      "summary": "Research on intelligent manipulation, tele-operation, and autonomy, supervised by Prof. Sungjoon Choi."
     },
     {
       "name": "ROBOTIS",
@@ -37,7 +37,7 @@
       "url": "https://www.robotis.com/",
       "startDate": "2025-06-01",
       "endDate": "2025-12-31",
-      "summary": "Working on AI platform development for robotics applications."
+      "summary": "Former AI Software Team Intern working on AI platform development for robotics applications."
     },
     {
       "name": "iRASC Lab, Gachon University",
@@ -97,14 +97,14 @@
     },
     {
       "name": "Research Interests",
-      "keywords": ["Robot Manipulation", "Human-Robot Interaction", "Embodied AI"]
+      "keywords": ["Robot Manipulation", "Human-Robot Interaction", "Embodied AI", "Tele-operation Systems", "Level of Autonomy"]
     }
   ],
   "languages": [],
   "interests": [
     {
       "name": "Robotics",
-      "keywords": ["Embodied AI", "Physical Human-Robot Interaction", "Autonomous Systems"]
+      "keywords": ["Robot Manipulation", "Embodied AI", "Tele-operation Systems", "Level of Autonomy", "Autonomous Systems"]
     }
   ]
 }
