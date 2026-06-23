@@ -203,7 +203,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%63%68%61%6A%75%6E%68%61%32%30%32%33@%6E%61%76%65%72.%63%6F%6D", "_blank");
+          window.open("mailto:%63%6B%77%6E%73%67%6B%31@%67%61%63%68%6F%6E.%61%63.%6B%72", "_blank");
+        },
+      },{
+        id: 'social-email2',
+        title: 'Email2',
+        section: 'Socials',
+        handler: () => {
+          window.open("", "_blank");
         },
       },{
         id: 'social-github',
