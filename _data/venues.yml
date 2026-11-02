@@ -1,6 +1,9 @@
 CoRL:
-  color: "#236192"
+  color: "#B45309"
 
 IEIE:
-  color: "#236192"
+  color: "#0F766E"
   url: https://www.ieie.or.kr/
+
+arXiv:
+  color: "#B31B1B"
