@@ -395,7 +395,27 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Social (bottom)
+// News
+
+.news {
+  .table {
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .news-date {
+    width: 6rem;
+    white-space: nowrap;
+  }
+
+  .news-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+// Social
 
 .social {
   text-align: center;
