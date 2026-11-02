@@ -7,13 +7,13 @@ first_name: Junha
 middle_name:
 last_name: Cha
 contact_note: >
-  Contact me at ckwnsgk1@gachon.ac.kr or chajunha2023@naver.com
+  Contact me at <a href="mailto:chajunha1211@gmail.com">chajunha1211@gmail.com</a>.
 description: >
-  Junha Cha is an undergraduate robotics researcher at Robot Intelligence Lab (RILAB), Korea University, focused on intelligent manipulation, tele-operation, and autonomy.
+  Junha Cha is an undergraduate robotics researcher at Robot Intelligence Lab (RILAB), Korea University, focused on tele-operation, force estimation, and dexterous manipulation.
 
 footer_text: >
 
-keywords: Robot Manipulation, Human-Robot Interaction, Embodied AI, Tele-operation Systems, Level of Autonomy, Robotics, VLA, Imitation Learning
+keywords: Tele-operation, Force Estimation, Dexterous Manipulation, Robotics, VLA, Imitation Learning
 lang: en
 icon: 🤖
 url: https://junha02.github.io
@@ -40,7 +40,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 max_width: 930px
@@ -61,19 +61,16 @@ google_analytics:
 google_site_verification: k4p92PduVR_7ZqAlB8-OMnONNOl9GkkmUh4dlKfbY7o
 
 # -----------------------------------------------------------------------------
-# Blog
+# Posts
 # -----------------------------------------------------------------------------
 
-blog_name: Junha's Blog
-blog_description: Paper reviews, seminars, and robotics notes
-permalink: /blog/:year/:title/
 lsi: false
 
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 giscus:
@@ -111,8 +108,6 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-  projects:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -205,16 +200,9 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories]
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+    enabled: []
   books:
     enabled: [year, tags, categories]
-
-display_tags: ["VLA", "paper-review", "seminar", "robotics", "imitation-learning"]
-display_categories: ["seminar"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -327,7 +315,6 @@ enable_math: true
 enable_tooltips: false
 enable_darkmode: true
 enable_navbar_social: false
-enable_project_categories: true
 enable_medium_zoom: true
 enable_progressbar: true
 enable_video_embedding: false

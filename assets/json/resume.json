@@ -3,9 +3,9 @@
     "name": "Junha Cha",
     "label": "Robot Intelligence Lab @ Korea University",
     "image": "",
-    "email": "ckwnsgk1@gachon.ac.kr",
+    "email": "chajunha1211@gmail.com",
     "url": "https://junha02.github.io",
-    "summary": "Undergraduate robotics researcher focused on intelligent manipulation, tele-operation, and autonomy for robots that can work with people.",
+    "summary": "Undergraduate robotics researcher focused on tele-operation, force estimation, and dexterous manipulation for robots that can work with people.",
     "location": {
       "city": "Seoul",
       "countryCode": "KR",
@@ -29,7 +29,7 @@
       "position": "Undergraduate Research Intern",
       "url": "https://sites.google.com/view/sungjoon-choi/home",
       "startDate": "2026-01-01",
-      "summary": "Research on intelligent manipulation, tele-operation, and autonomy, supervised by Prof. Sungjoon Choi."
+      "summary": "Research on tele-operation, force estimation, and dexterous manipulation, supervised by Prof. Sungjoon Choi."
     },
     {
       "name": "ROBOTIS",
@@ -97,14 +97,14 @@
     },
     {
       "name": "Research Interests",
-      "keywords": ["Robot Manipulation", "Human-Robot Interaction", "Embodied AI", "Tele-operation Systems", "Level of Autonomy"]
+      "keywords": ["Tele-operation", "Force Estimation", "Dexterous Manipulation"]
     }
   ],
   "languages": [],
   "interests": [
     {
       "name": "Robotics",
-      "keywords": ["Robot Manipulation", "Embodied AI", "Tele-operation Systems", "Level of Autonomy", "Autonomous Systems"]
+      "keywords": ["Tele-operation", "Force Estimation", "Dexterous Manipulation"]
     }
   ]
 }

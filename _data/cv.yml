@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: December 11, 2002
     - name: Email
-      value: ckwnsgk1@gachon.ac.kr / chajunha2023@naver.com
+      value: chajunha1211@gmail.com
     - name: Phone
       value: "+82-10-3199-8292"
 
@@ -35,7 +35,7 @@
       year: 2026.01 - Present
       description:
         - "Supervised by Prof. <a href='https://sites.google.com/view/sungjoon-choi/home'>Sungjoon Choi</a>"
-        - "Research focused on intelligent manipulation, tele-operation, and autonomy for achieving human-level intelligence in robotics."
+        - "Research focused on tele-operation, force estimation, and dexterous manipulation for achieving human-level intelligence in robotics."
     - title: AI Software Team Intern
       institution: ROBOTIS
       year: 2025.06 - 2025.12
@@ -76,8 +76,7 @@
         - "Docker, Git"
     - title: Research Interests
       items:
-        - "Robot Manipulation, Human-Robot Interaction, Embodied AI"
-        - "Tele-operation Systems, Level of Autonomy"
+        - "Tele-operation, Force Estimation, Dexterous Manipulation"
 
 - title: Other Interests
   type: list

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robot Intelligence Lab @ Korea University | Intelligent Manipulation · Tele-operation · Autonomy
+subtitle: Robot Intelligence Lab @ Korea University | Tele-operation · Force Estimation · Dexterous Manipulation
 
 profile:
   align: right
@@ -22,7 +22,7 @@ profile:
 pr_video: Junha_pr.mp4
 
 selected_papers: true
-featured_projects: true
+research_projects: true
 social: true
 
 announcements:
@@ -30,18 +30,15 @@ announcements:
   scrollable: true
   limit: 5
 
-latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
 ---
+
+1. **2026. 01 - Present**: Undergraduate Research Intern, [Robot Intelligence Lab (RILAB), Korea University](https://sites.google.com/view/sungjoon-choi/home), supervised by [Sungjoon Choi](https://sites.google.com/view/sungjoon-choi/home).
+2. **2025. 06 - 2025. 12**: AI Software Team Intern, [ROBOTIS](https://www.robotis.com/).
+3. **2023. 12 - 2025. 06**: Research Assistant, [iRASC Lab, Gachon University](https://sites.google.com/view/irasc/home), supervised by [Jaeyong Choi](https://sites.google.com/view/irasc/home?authuser=0).
+4. **2021. 03 - 2027. 02 (Expected)**: B.S. in AI & Software, [Gachon University](https://www.gachon.ac.kr/).
 
 **"Freedom From Work"** — this is the vision that drives my research.
 
-Hi, I'm **Junha Cha**, a robotics researcher with a strong interest in **Intelligent Manipulation**, **Tele-operation**, and **Autonomy**. I'm focused on building _"generalist robots that can work with people"_ in everyday environments.
-
-I'm currently an **Undergraduate Research Intern** at the [Robot Intelligence Lab (RILAB)](https://sites.google.com/view/sungjoon-choi/home) at **Korea University**, supervised by Prof. [Sungjoon Choi](https://sites.google.com/view/sungjoon-choi/home). Previously, I worked as an **AI Software Team Intern at [ROBOTIS](https://www.robotis.com/)** and served as a Research Assistant at the [iRASC Lab](https://sites.google.com/view/irasc/home) (Intelligent Robotics and Autonomous System Control) at Gachon University, supervised by Prof. [Jaeyong Choi](https://sites.google.com/view/irasc/home?authuser=0).
-
-My current research interests span **Robot Manipulation**, **Human-Robot Interaction**, **Embodied AI**, **Tele-operation Systems**, and **Level of Autonomy**. I am also pursuing a **BS in AI & Software** at **Gachon University** (expected 2027, GPA 4.35/4.5).
+Hi, I'm **Junha Cha**, a robotics researcher working on **Tele-operation**, **Force Estimation**, and **Dexterous Manipulation**. I'm focused on building _"generalist robots that can work with people"_ in everyday environments.
 
 My goal is to gradually reduce the dangerous and physically demanding tasks that people perform, while maximizing productivity — ultimately achieving a world where robots free humans from labor.
