@@ -32,7 +32,7 @@ announcements:
 
 ---
 
-1. **2026. 01 - Present**: Undergraduate Research Intern, [Robot Intelligence Lab (RILAB), Korea University](https://sites.google.com/view/sungjoon-choi/home), supervised by [Sungjoon Choi](https://sites.google.com/view/sungjoon-choi/home).
+1. **2026. 01 - Present**: Research Intern, [Robot Intelligence Lab (RILAB), Korea University](https://sites.google.com/view/sungjoon-choi/home), supervised by [Sungjoon Choi](https://sites.google.com/view/sungjoon-choi/home).
 2. **2025. 06 - 2025. 12**: AI Software Team Intern, [ROBOTIS](https://www.robotis.com/).
 3. **2023. 12 - 2025. 06**: Research Assistant, [iRASC Lab, Gachon University](https://sites.google.com/view/irasc/home), supervised by [Jaeyong Choi](https://sites.google.com/view/irasc/home?authuser=0).
 4. **2021. 03 - 2027. 02 (Expected)**: B.S. in AI & Software, [Gachon University](https://www.gachon.ac.kr/).
