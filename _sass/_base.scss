@@ -774,8 +774,10 @@ footer.sticky-bottom {
           margin-bottom: 0.5rem;
           color: white !important;
 
-          a {
-            color: white;
+          a,
+          span,
+          div {
+            color: white !important;
 
             &:hover {
               text-decoration: none;
@@ -807,7 +809,6 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
-
       }
 
       .links {
